@@ -2,6 +2,10 @@
 
 `klips` is a collection of script utils for video manipulation.
 
+## Dependencies
+
+[FFmpeg]( https://www.ffmpeg.org/)
+
 ## Installation
 
 Clone this repository
@@ -21,6 +25,9 @@ source "/path/to/your/script.sh"
 ### gif
 
 extract gif from video
+
+uses FFmpeg filter from GIPHY:
+[how-to-make-gifs-with-ffmpeg](https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/)
 
 ```markdown
 gif [input] [output] [start] [end] [fps] [width]
