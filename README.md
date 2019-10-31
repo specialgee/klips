@@ -1,4 +1,4 @@
-# KILPS
+# KLIPS
 
 `klips` is a collection of script utils for video manipulation.
 
