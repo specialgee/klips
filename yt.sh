@@ -11,6 +11,6 @@ function yt() {
       help
     else
       help
-      youtube-dl -f "mp4" -o "/c/Users/gllm/Desktop/%(title)s.%(ext)s" $1
+      youtube-dl --recode-video "mp4" -o "/c/Users/gllm/Desktop/%(title)s.%(ext)s" $1
     fi
 }
