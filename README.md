@@ -66,6 +66,16 @@ vx [input] [output]
 -output       file output path
 ```
 
+### yt
+
+download video from Youtube with youtube-dl
+
+```markdown
+yt [url]
+
+-url          youtube video url
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
