@@ -50,7 +50,7 @@ chop [input] [output] [start] [end] [fps] [width]
 -input        video input path
 -output       video output path
 -start        start time in seconds/timestamp
--end          end time in duration/timestamp
+-end          end time in timestamp
 -fps          framerate
 -width        output video width
 ```
