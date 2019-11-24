@@ -42,6 +42,8 @@ gif [input] [output] [start] [end] [fps] [width]
 
 ### chop
 
+chop video
+
 chop input output start end fps width
 
 ```markdown
@@ -53,6 +55,20 @@ chop [input] [output] [start] [end] [fps] [width]
 -end          end time in timestamp
 -fps          framerate
 -width        output video width
+```
+
+### frame
+
+extract one frame from video
+
+frame input output time
+
+```markdown
+frame [input] [timestamp] [output]
+
+-input        video input path"
+-output       video output path"
+-time        frame position timestamp"
 ```
 
 ### vx
