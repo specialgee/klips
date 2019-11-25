@@ -71,6 +71,21 @@ frame [input] [timestamp] [output]
 -time        frame position timestamp"
 ```
 
+### scale
+
+scale input to specific size
+
+scale input output width height
+
+```markdown
+scale [input] [output] [width] [height]
+
+-input        video input path"
+-output       video output path"
+-width        scaled width size"
+-height        scaled height size"
+```
+
 ### vx
 
 transform a video file with 16:9 aspect ratio into 4:3
