@@ -3,7 +3,7 @@
 # USAGE: frame input output time
 function frame() {
     help() {
-      echo "usage: frame [input] [timestamp] [output]"
+      echo "usage: frame [input] [output] [timestamp]"
       echo "-input        video input path"
       echo "-output       video output path"
       echo "-time        frame position timestamp"
