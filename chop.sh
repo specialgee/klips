@@ -3,7 +3,7 @@
 # USAGE: chop input output start end fps width
 function chop() {
     help() {
-      echo "usage: chop [input] [output] [start] [end] [fps] [width]"
+      echo "usage: chop input output start end fps width"
       echo "-input        video input path"
       echo "-output       video output path"
       echo "-start        start time in seconds/timestamp"

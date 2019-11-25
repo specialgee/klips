@@ -3,7 +3,7 @@
 # USAGE: vx input output
 function vx() {
     help() {
-      echo "usage: vx [input] [output]"
+      echo "usage: vx input output"
       echo "-input        file input path"
       echo "-output       file output path"
       echo ""

@@ -3,7 +3,7 @@
 # USAGE: scale input output width height
 function scale() {
     help() {
-      echo "usage: scale [input] [output] [width] [height]"
+      echo "usage: scale input output width height"
       echo "-input        video input path"
       echo "-output       video output path"
       echo "-width        scaled width size"

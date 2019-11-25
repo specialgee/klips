@@ -3,7 +3,7 @@
 # USAGE: gif input output start end fps width
 function gif() {
     help() {
-      echo "usage: gif [input] [output] [start] [end] [fps] [width]"
+      echo "usage: gif input output start end fps width"
       echo "-input        video input path"
       echo "-output       gif output path"
       echo "-start        start time in seconds/timestamp"

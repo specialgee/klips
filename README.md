@@ -30,7 +30,7 @@ uses FFmpeg filter from GIPHY:
 [how-to-make-gifs-with-ffmpeg](https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/)
 
 ```markdown
-gif [input] [output] [start] [end] [fps] [width]
+gif input output start end fps width
 
 -input        video input path
 -output       gif output path
@@ -47,7 +47,7 @@ chop video
 chop input output start end fps width
 
 ```markdown
-chop [input] [output] [start] [end] [fps] [width]
+chop input output start end fps width
 
 -input        video input path
 -output       video output path
@@ -64,7 +64,7 @@ extract one frame from video
 frame input output time
 
 ```markdown
-frame [input] [timestamp] [output]
+frame input timestamp output
 
 -input        video input path"
 -output       video output path"
@@ -78,7 +78,7 @@ scale input to specific size
 scale input output width height
 
 ```markdown
-scale [input] [output] [width] [height]
+scale input output width height
 
 -input        video input path"
 -output       video output path"
@@ -91,7 +91,7 @@ scale [input] [output] [width] [height]
 transform a video file with 16:9 aspect ratio into 4:3
 
 ```markdown
-vx [input] [output]
+vx input output
 
 -input        file input path
 -output       file output path
@@ -99,12 +99,13 @@ vx [input] [output]
 
 ### yt
 
-download video from Youtube with youtube-dl
+download audio/video from Youtube with youtube-dl
 
 ```markdown
-yt [url]
+yt [format] url
 
 -url          youtube video url
+-format       currently supported: mp3, mp4
 ```
 
 ## Contributing
