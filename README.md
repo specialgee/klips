@@ -97,6 +97,18 @@ vx input output
 -output       file output path
 ```
 
+### cfr
+
+transcode video to constant framerate
+
+```markdown
+cfr input output fps
+
+-input        file input path
+-output       file output path
+-fps          framerate
+```
+
 ### yt
 
 download audio/video from Youtube with youtube-dl
