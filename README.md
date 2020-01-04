@@ -6,6 +6,8 @@
 
 [FFmpeg]( https://www.ffmpeg.org/)
 
+[youtube-dl]( https://ytdl-org.github.io/youtube-dl/index.html)
+
 ## Installation
 
 Clone this repository
@@ -44,8 +46,6 @@ gif input output start end fps width
 
 chop video
 
-chop input output start end fps width
-
 ```markdown
 chop input output start end fps width
 
@@ -61,8 +61,6 @@ chop input output start end fps width
 
 extract one frame from video
 
-frame input output time
-
 ```markdown
 frame input timestamp output
 
@@ -74,8 +72,6 @@ frame input timestamp output
 ### scale
 
 scale input to specific size
-
-scale input output width height
 
 ```markdown
 scale input output width height
